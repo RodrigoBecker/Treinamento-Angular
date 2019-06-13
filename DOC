@@ -1,0 +1,44 @@
+Treinamento Angular 
+
+SPA = Single Page Aplication 
+
+# COMPONENTS 
+# DIRETIVAS 
+# ROTEAMENTO 
+# SERVIÇOS 
+# TEMPLATE 
+# METADATA 
+# DATA BINDING 
+# INJEÇÃO DE DEPENDÊNCIA
+
+ 
+REPOSITORIO GIT:
+
+github.com/loiane/curso-angular2
+
+BREACK-CHANGE | Atualização que pode quebrar a estrutura do projeto
+
+	  2        -       3    	 -	  1 
+	MAJOR		 Minor			BugFixes
+	Breaking	 New Feature		not Breaking
+	Change		 not breaking  
+
+# Atualização a cada 6 meses 
+
+Angualar 4 = Melhoria do Angular 2 
+
+
+
+# NPM = REPOSITORIO DE DEPENDENCIA DO JS 
+
+ANGULAR CLI (Assistente de construção de projeto)  
+
+	PACKEGE JSON 
+
+Instalar TypeScript através do NPM 
+
+	Exemplo: npm install -g typescript 
+	 
+
+TypeScript = SuperSet do Js 
+
