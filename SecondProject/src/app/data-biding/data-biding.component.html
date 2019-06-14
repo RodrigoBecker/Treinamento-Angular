@@ -10,10 +10,42 @@
     <p>Curso Angular exemplo de condição {{cursoAngular && getCurso()}}</p>
   </article>
 
+  <!--
 
   <article>
-    <!--Property-DataBinding-->
+    <!--Property-DataBinding
     <h4>Property Binding</h4>
     <img [src]="urlImg">
+  </article>
+-->
+  <article>
+    <!--Style Binding-->
+    <h4>Style Binding</h4>
+    <div class="row">
+      <div class="col-md-4">
+        Selecione uma classe:
+        <select class="form-control" #classe (change)="0">
+          <option value="alert-success">Sucesso</option>
+          <option value="alert-info">Infomation</option>
+          <option value="alert-warning">Atenção</option>
+          <option value="alert-danger">Erro</option>
+        </select>
+        <br>
+        <br>
+        <div class="alert" role="alert" [class.alert-success]="classe.value == 'alert-success'">
+          Um simples alerta success. Olha só!
+        </div>
+        <div class="" role="alert" [class.alert-danger]="classe.value == 'alert-danger'">
+          Um simples alerta danger. Olha só!
+        </div>
+        <div class="" role="alert">
+          Um simples alerta warning. Olha só!
+        </div>
+        <div class="alert-info" role="alert" [style.display]="classe.value =='alert-info' ? 'block'">
+          Um simples alerta info. Olha só!
+        </div>
+      </div>
+    </div>
+
   </article>
 </section>
